@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* PDF Export Styles */
+.print-friendly {
+  background: white !important;
+}
+
+.print-friendly table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.print-friendly th,
+.print-friendly td {
+  border: 1px solid #e5e7eb;
+  padding: 8px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.print-friendly th {
+  background-color: #f9fafb;
+  font-weight: 600;
+}
